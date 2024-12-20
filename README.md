@@ -4,7 +4,7 @@ This repository is a sandbox for the Open Policy Agent
 # Examples
 `opa run --server --addr localhost:8181 policy.rego data.json`
 
-```json
+```sh
 curl -X POST http://localhost:8181/v1/data/access_control/allow \
   -H "Content-Type: application/json" \
   -d '{
