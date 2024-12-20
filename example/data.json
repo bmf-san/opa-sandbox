@@ -1,0 +1,13 @@
+{
+  "departments": {
+    "1": {"name": "営業部", "parent_department_id": null},
+    "2": {"name": "営業第一課", "parent_department_id": "1"}
+  },
+  "employment_types": {
+    "1": {"type_name": "正社員"},
+    "2": {"type_name": "契約社員"}
+  },
+  "employees": {
+    "101": {"name": "田中太郎", "department_id": "2", "employment_type_id": "1", "role_id": "3"}
+  }
+}
